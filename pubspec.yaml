@@ -1,0 +1,24 @@
+name: flutter_translator
+description: A simple language translation app built with Flutter
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # Firebase dependencies
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.13.6
+  firebase_analytics: ^10.7.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
